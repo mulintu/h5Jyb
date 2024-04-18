@@ -1,0 +1,63 @@
+{
+	"name": "newh5",
+	"version": "1.2.0",
+	"scripts": {
+		"dev": "vite --host",
+		"serve": "vite preview --host",
+		"uat": "vite build --mode uat --outDir uat",
+		"gray": "vite build --mode gray --outDir gray",
+		"live": "vite build --mode production --outDir live"
+	},
+	"dependencies": {
+		"axios": "^0.21.1",
+		"crypto-js": "^4.1.1",
+		"html2canvas": "^1.4.1",
+		"normalize.css": "^8.0.1",
+		"pinia": "^2.0.30",
+		"qs": "^6.11.0",
+		"rollup-plugin-visualizer": "^5.9.0",
+		"vant": "^3.0.7",
+		"vue": "^3.2.24",
+		"vue-i18n": "^9.3.0-beta.16",
+		"vue-router": "^4.0.4",
+		"weixin-sdk-js": "^1.0.11"
+	},
+	"devDependencies": {
+		"@vitejs/plugin-legacy": "^1.8.2",
+		"@vitejs/plugin-vue": "^1.1.4",
+		"@vue/compiler-sfc": "^3.2.24",
+		"adm-zip": "^0.5.9",
+		"autoprefixer": "^10.2.4",
+		"crypto-js": "^4.1.1",
+		"eslint": "^8.33.0",
+		"eslint-config-prettier": "^8.6.0",
+		"eslint-define-config": "^1.15.0",
+		"eslint-plugin-prettier": "^4.2.1",
+		"eslint-plugin-vue": "^9.9.0",
+		"lib-flexible": "^0.3.2",
+		"ora": "^6.1.2",
+		"postcss": "^8.4.31",
+		"postcss-loader": "^4.1.0",
+		"postcss-pxtorem": "^6.0.0",
+		"prettier": "2.8.3",
+		"rimraf": "^3.0.2",
+		"sass": "^1.32.8",
+		"unplugin-vue-components": "^0.23.0",
+		"vconsole": "^3.15.1",
+		"vite": "^2.0.0",
+		"vite-plugin-compression": "^0.5.1",
+		"vite-plugin-eslint": "^1.8.1"
+	},
+	"autoprefixer": {
+		"browsers": [
+			"> 1%",
+			"last 2 versions",
+			"not ie <= 8",
+			"Android >= 4.0",
+			"iOS >= 8"
+		]
+	},
+	"engines": {
+		"node": ">=16.17.1"
+	}
+}

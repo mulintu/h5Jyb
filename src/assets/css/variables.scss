@@ -1,0 +1,12 @@
+/* 白色模式 light */
+body {
+	--background-main: #fff;
+}
+
+/* 黑色模式变量 dark */
+body[theme='dark'] {
+	--background-main: #141a26;
+}
+
+
+
